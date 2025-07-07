@@ -1,41 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Contato</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato - Jhullyana Bento</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>J.Soares</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Sobre Mim</a></li>
-        <li><a href="formacao.html">Formação</a></li>
-        <li><a href="portfolio.html">Portfólio</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <main>
-    <h2>Contato</h2>
-    <form>
-      <label for="nome">Nome:</label><br>
-      <input type="text" id="nome" name="nome"><br><br>
+  <nav>
+    <ul>
+      <li><a href="index.html">Sobre Mim</a></li>
+      <li><a href="formacao.html">Formação</a></li>
+      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
 
-      <label for="email">E-mail:</label><br>
-      <input type="email" id="email" name="email"><br><br>
+  <main class="container">
+    <h1>Contato</h1>
+    <form action="#" method="post">
+      <label for="nome">Nome:</label><br />
+      <input type="text" id="nome" name="nome" required /><br />
 
-      <label for="mensagem">Mensagem:</label><br>
-      <textarea id="mensagem" name="mensagem"></textarea><br><br>
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br />
 
-      <button type="submit" onclick="alert('Mensagem enviada!')">Enviar</button>
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br />
+
+      <button type="submit">Enviar</button>
     </form>
   </main>
 
-  <footer>
-    <p>&copy; 2025 J.Soares</p>
-  </footer>
 </body>
 </html>
